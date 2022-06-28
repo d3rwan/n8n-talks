@@ -1,0 +1,12 @@
+{
+  "name": "n8n-talks",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "pren8n": "yarn workspace n8n-nodes-dice build",
+    "n8n": "yarn workspace n8n-runtime n8n"
+  }
+}

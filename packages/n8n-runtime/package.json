@@ -1,0 +1,8 @@
+{
+  "name": "n8n-runtime",
+  "version": "1.0.0",
+  "dependencies": {
+    "n8n": "0.183.0",
+    "n8n-nodes-dice": "1.0.0"
+  }
+}
